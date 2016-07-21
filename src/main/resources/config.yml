@@ -1,0 +1,109 @@
+click-top-open: true
+
+enchantment-item:
+  name: "&c{ENCHANT} {LEVEL} &7Book"
+  description: "{ENCHANT_DESCRIPTION}|&7Claim this custom enchant|&7using &c/ce!"
+
+colors:
+  COMMON: "&a"
+  UNCOMMON: "&3"
+  RARE: "&5"
+  LEGENDARY: "&6"
+
+npc-lores:
+  COMMON:
+  - "&7Click to receive a random"
+  - "&7Common Enchantment!"
+  UNCOMMON:
+  - "&7Click to receive a random"
+  - "&7Uncommon Enchantment!"
+  RARE:
+  - "&7Click to receive a random"
+  - "&7Rare Enchantment!"
+  LEGENDARY:
+  - "&7Click to receive a random"
+  - "&7Legendary Enchantment!"
+
+explosive-allowed-blocks: "Stone, grass, dirt, cobblestone, wood, sand, gravel, gold_ore, iron_ore, coal_ore, log, glass, lapis_ore, sandstone, iron_block, coal_block, gold_block, lapis_block, emerald_ore, emerald_block, diamond, diamond_block, smooth_brick"
+
+enchant-descriptions:
+  SPPEDSTER: "&7Speeeeeeeeeeeeed!"
+  JUMPER: "&7Jump real high!"
+  NIGHT_VISION: "&7See. Everything."
+  DRUGGED: "&7Faster foodpoints!"
+  STRIKE: "&7More attack damage!"
+  SMELTER: "&7Autosmelt while mining!"
+  SAPLING: "&7Get rewarded for chopping trees!"
+  MYOPIA: "&7Blind your enemies!"
+  BRAINWASHED: "&7Confuse your enemies!"
+  DOUBLE: "&7Shoot double arrows!"
+  BLOCKER: "&7Block attack damage!"
+  LIFESTEAL: "&7Receive HP on hit!"
+  REGROWTH: "&7Restores health!"
+  ENLIGHTEN: "&7Immune to Brainwashed!"
+  EXPLOSIVE: "&7Explode blocks!"
+  SILK_GRASS: "&7Dig Grass instead of Dirt!"
+  HASTE: "&7Increase Arm Speed!"
+  SLUG: "&7Summon slowness!"
+  FREEZE: "&7Freeze players!"
+  HEART_STEALER: "&7Swap HP!"
+  SKELLY: "&7Summon skeletons!"
+  RETURN: "&7Return the damage!"
+  ITEM_KEEPER: "&7Keep your inventory!"
+  CONSCIOUSNESS: "&7Immune to Myopia!"
+  CANNIBAL: "&7Receive Hunger Points!"
+  HOTHEAD: "&7Catch them on fire!"
+  ZEUS: "&7Struck lightning!"
+  JUGGERNAUT: "&7Be a real juggernaut!"
+  SPIKES: "&7Ouch!"
+  FIREBALL: "&7Fancy..."
+  TREEFELLER: "&7Break the entire tree!"
+
+npc:
+  name: "&6Enchantment Manager"
+  locations: []
+  menu:
+    categories:
+      COMMON:
+        cost: 560
+        chances:
+          SPPEDSTER: 5
+          JUMPER: 5
+          NIGHT_VISION: 5
+          DRUGGED: 1
+          STRIKE: 3
+          SMELTER: 2
+          SAPLING: 2
+      UNCOMMON:
+        cost: 825
+        chances:
+          MYOPIA: 5
+          BRAINWASHED: 5
+          DOUBLE: 4
+          BLOCKER: 3
+          LIFESTEAL: 3
+          REGROWTH: 2
+          ENLIGHTEN: 2
+          EXPLOSIVE: 1
+          SILK_GRASS: 2
+      RARE:
+        cost: 3965
+        chances:
+          HASTE: 6
+          SLUG: 4
+          FREEZE: 3
+          HEART_STEALER: 3
+          SKELLY: 1
+          RETURN: 2
+          ITEM_KEEPER: 1
+          CONSCIOUSNESS: 1
+      LEGENDARY:
+        cost: 13515
+        chances:
+          CANNIBAL: 3
+          HOTHEAD: 2
+          ZEUS: 2
+          JUGGERNAUT: 4
+          SPIKES: 2
+          FIREBALL: 1
+          TREEFELLER: 1

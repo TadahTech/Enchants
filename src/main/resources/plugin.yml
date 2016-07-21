@@ -1,0 +1,10 @@
+name: Enchants
+version: 1.0.0
+main: com.tadahtech.enchants
+commands:
+  ce:
+    aliases:
+    - "customench"
+    - "customenchant"
+    - "ae"
+    - "arcadianenchant"
